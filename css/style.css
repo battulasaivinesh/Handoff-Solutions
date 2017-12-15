@@ -1,0 +1,1206 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+html{
+  overflow-x: hidden;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+html,body{ 
+	width:100%;
+	height:100%;
+	background:#111;
+  color: #CCCCCC;
+  font-family: 'Source Code Pro',Courier, monospace;
+
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+    font-family: 'Source Code Pro',Courier, monospace;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+
+
+
+#map {
+        height: 400px;
+        width: 100%;
+        z-index: 100;
+       }
+
+
+#scroll-icon{
+  margin-top: 30vh;
+  text-align: center;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+  #particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0,0,0,0);
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+  #title{
+    position: relative;
+    top: 40vh;
+    height: 150vh;
+    width: 100vw;
+    text-align: center
+  }
+
+  #title #heading{
+    text-align: center;
+    position: relative;
+    letter-spacing: 35vw;
+    width: 80vw;
+    left:10vw;
+    opacity: 0;
+    background-color: #AC0000;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  #title #heading #heading-text{
+    font-size: 1rem;
+    font-weight: 100;
+    opacity: 0;
+    color: white;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #title #caption span{
+    font-size: 0.7rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #title #caption{
+    text-align: center;
+    opacity: 0;
+  }
+
+  #idea{
+    position: relative;
+    width: 80vw;
+    left: 10vw;
+    height: 150vh;
+  }
+
+  #idea #heading{
+    position: relative;
+    z-index: 99;
+    opacity: 1;
+    font-size: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+
+  #idea #caption{
+    color: #FFFFFF;
+    position: relative;
+    z-index: 99;
+    opacity: 1;
+    font-style: italic;
+    font-size: 0.7rem;
+    font-weight: 100;
+    letter-spacing: 3.9px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 200%;
+  }
+
+  #about-us{
+    position: relative;
+    width: 70vw;
+    left: 15vw;
+  }
+
+  #about-us #heading{
+    opacity: 1;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #about-us #caption{
+    opacity: 1;
+    /*font-style: italic;*/
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #about-us-img{
+    position: relative;
+    width: 100vw;
+    background-color: white;
+    margin-top :100px;
+    z-index: 100;
+    opacity: 0.9;
+  }
+
+  #about-us-img img{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    /*left: 15vw;*/
+    
+  }
+
+  #links{
+    position: relative;
+    margin-top: 60vh; 
+    width: 100vw;
+    /*left: 5vw;*/
+    font-size: 1.3rem;
+    text-align: center;
+    z-index:100; 
+  }
+
+  #links #content-wrapper a{
+    margin-bottom: 20px;
+    position: relative;
+    left:15vw;
+    width: 70vw;
+    display: block;
+    opacity: 1;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 6px;
+    /*margin-right: 20px;*/
+    text-decoration: none;
+  }
+
+  #links #content-wrapper a:hover{
+    text-decoration: none;
+    /*color: #111111;*/
+    border: 2px solid #AC0000;
+    background-color:#AC0000;
+  }
+
+  #contact-us{
+    position: relative;
+    width: 80vw;
+    margin-top: 100vw;
+    left: 10vw;
+    height: 40vh;
+  }
+
+  #contact-us #caption{
+    opacity: 1;
+    /*font-style: italic;*/
+    font-size: 0.7rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 200%;
+  }
+
+  #contact-us #heading{
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #address-section{
+    text-align: center;
+    position: relative;
+    margin-top: 20vh;
+    margin-left: 10vw;
+    margin-bottom: 30vh;
+  }
+
+  #address-section .row{
+    margin-bottom: 30px;
+  }
+
+  #address-section .row .heading{
+    text-align: left;
+    width: 30vw;
+    color: #FFFFFF;
+    font-size: 0.9em;
+    line-height: 200%;
+  } 
+
+  #address-section .row .caption{
+    text-align: left;
+    width: 50vw;
+    font-size: 0.8em;
+    line-height: 200%;
+  }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 759px){
+  #particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0,0,0,0);
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+  #title{
+    position: relative;
+    top: 40vh;
+    height: 150vh;
+    width: 100vw;
+    text-align: center
+  }
+
+  #title #heading{
+    text-align: center;
+    position: relative;
+    letter-spacing: 35vw;
+    width: 50vw;
+    left:25vw;
+    opacity: 0;
+    background-color: #AC0000;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  #title #heading #heading-text{
+    font-size: 1rem;
+    font-weight: 100;
+    opacity: 0;
+    color: white;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #title #caption span{
+    font-size: 0.7rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #title #caption{
+    text-align: center;
+    opacity: 0;
+  }
+
+  #idea{
+    position: relative;
+    width: 80vw;
+    left: 10vw;
+    height: 150vh;
+  }
+
+  #idea #heading{
+    position: relative;
+    z-index: 99;
+    opacity: 1;
+    font-size: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+
+  #idea #caption{
+    color: #FFFFFF;
+    position: relative;
+    z-index: 99;
+    opacity: 1;
+    font-style: italic;
+    font-size: 0.7rem;
+    font-weight: 100;
+    letter-spacing: 3.9px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 200%;
+  }
+
+  #about-us{
+    position: relative;
+    width: 70vw;
+    left: 15vw;
+  }
+
+  #about-us #heading{
+    opacity: 1;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #about-us #caption{
+    opacity: 1;
+    /*font-style: italic;*/
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #about-us-img{
+    position: relative;
+    width: 100vw;
+    background-color: white;
+    margin-top :100px;
+    z-index: 100;
+    opacity: 0.9;
+  }
+
+  #about-us-img img{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    /*left: 15vw;*/
+    
+  }
+
+  #links{
+    position: relative;
+    margin-top: 60vh; 
+    width: 100vw;
+    /*left: 5vw;*/
+    font-size: 1.3rem;
+    text-align: center;
+    z-index:100; 
+  }
+
+  #links #content-wrapper a{
+    margin-bottom: 20px;
+    position: relative;
+    left:25vw;
+    width: 50vw;
+    display: block;
+    opacity: 1;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 6px;
+    /*margin-right: 20px;*/
+    text-decoration: none;
+  }
+
+  #links #content-wrapper a:hover{
+    text-decoration: none;
+    /*color: #111111;*/
+    border: 2px solid #AC0000;
+    background-color:#AC0000;
+  }
+
+  #contact-us{
+    position: relative;
+    width: 80vw;
+    margin-top: 100vw;
+    left: 10vw;
+    height: 40vh;
+  }
+
+  #contact-us #caption{
+    opacity: 1;
+    /*font-style: italic;*/
+    font-size: 0.7rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 200%;
+  }
+
+  #contact-us #heading{
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #address-section{
+    text-align: center;
+    position: relative;
+    margin-top: 20vh;
+    margin-left: 10vw;
+    margin-bottom: 30vh;
+  }
+
+  #address-section .row{
+    margin-bottom: 30px;
+  }
+
+  #address-section .row .heading{
+    text-align: left;
+    width: 30vw;
+    color: #FFFFFF;
+    font-size: 0.9em;
+    line-height: 200%;
+  } 
+
+  #address-section .row .caption{
+    text-align: left;
+    width: 50vw;
+    font-size: 0.8em;
+    line-height: 200%;
+  }
+
+}
+
+@media only screen and (min-width: 760px) and (max-width: 991px){
+  
+  #particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0,0,0,0);
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+  #title{
+    position: relative;
+    top: 40vh;
+    height: 150vh;
+    width: 100vw;
+    text-align: center
+  }
+
+  #title #heading{
+    text-align: center;
+    position: relative;
+    letter-spacing: 35vw;
+    width: 60vw;
+    left:20vw;
+    opacity: 0;
+    background-color: #AC0000;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  #title #heading #heading-text{
+    font-size: 1.5rem;
+    font-weight: 100;
+    opacity: 0;
+    color: white;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #title #caption span{
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #title #caption{
+    text-align: center;
+    opacity: 0;
+  }
+
+  #idea{
+    position: relative;
+    width: 50vw;
+    left: 25vw;
+    height: 150vh;
+  }
+
+  #idea #heading{
+    opacity: 0;
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+
+  #idea #caption{
+    opacity: 0;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 3.9px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 200%;
+  }
+
+  #about-us{
+    position: relative;
+    width: 70vw;
+    left: 15vw;
+  }
+
+  #about-us #heading{
+    opacity: 0;
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #about-us #caption{
+    opacity: 0;
+    /*font-style: italic;*/
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #about-us-img{
+    position: relative;
+    width: 100vw;
+    background-color: white;
+    margin-top :100px;
+    z-index: 100;
+    opacity: 0.9;
+  }
+
+  #about-us-img img{
+    position: relative;
+    width: 70vw;
+    height: auto;
+    left: 15vw;
+    
+  }
+
+
+  #links{
+    position: relative;
+    margin-top: 60vh; 
+    width: 100vw;
+    /*left: 5vw;*/
+    font-size: 2.2rem;
+    text-align: center;
+    z-index:100; 
+  }
+
+  #links #content-wrapper a{
+    margin-bottom: 50px;
+    position: relative;
+    left:25vw;
+    width: 50vw;
+    display: block;
+    opacity: 0;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 6px;
+    /*margin-right: 20px;*/
+    text-decoration: none;
+  }
+
+  #links #content-wrapper a:hover{
+    text-decoration: none;
+    /*color: #111111;*/
+    border: 2px solid #AC0000;
+    background-color:#AC0000;
+  }
+
+  #contact-us{
+    position: relative;
+    width: 80vw;
+    margin-top: 70vw;
+    left: 10vw;
+    height: 40vh;
+  }
+
+  #contact-us #caption{
+    opacity: 0;
+    /*font-style: italic;*/
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 200%;
+  }
+
+  #contact-us #heading{
+    color: #FFFFFF;
+    opacity: 0;
+    font-size: 3rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #address-section{
+    text-align: center;
+    position: relative;
+    margin-top: 25vh;
+    margin-left: 10vw;
+    margin-bottom: 30vh;
+  }
+
+  #address-section .row{
+    margin-bottom: 30px;
+  }
+
+  #address-section .row .heading{
+    text-align: left;
+    width: 20vw;
+    color: #FFFFFF;
+    font-size: 1.2em;
+  } 
+
+  #address-section .row .caption{
+    text-align: left;
+    width: 60vw;
+    font-size: 1.2em;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1100px){
+  #particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 99;
+    background-color: rgba(0,0,0,0);
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+  #title{
+    position: relative;
+    top: 40vh;
+    height: 150vh;
+    width: 100vw;
+    text-align: center
+  }
+
+  #title #heading{
+    text-align: center;
+    position: relative;
+    letter-spacing: 35vw;
+    width: 30vw;
+    left:35vw;
+    opacity: 0;
+    background-color: #AC0000;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  #title #heading #heading-text{
+    font-size: 1.5rem;
+    font-weight: 100;
+    opacity: 0;
+    color: white;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #title #caption span{
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #title #caption{
+    text-align: center;
+    opacity: 0;
+  }
+
+  #idea{
+    position: relative;
+    width: 50vw;
+    left: 25vw;
+    height: 150vh;
+  }
+
+  #idea #heading{
+    opacity: 0;
+    font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+
+  #idea #caption{
+    opacity: 0;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 3.9px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 200%;
+  }
+
+  #about-us{
+    position: relative;
+    width: 70vw;
+    left: 15vw;
+  }
+
+  #about-us #heading{
+    opacity: 0;
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #about-us #caption{
+    opacity: 0;
+    /*font-style: italic;*/
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #about-us-img{
+    position: relative;
+    width: 100vw;
+    background-color: white;
+    margin-top :100px;
+    z-index: 100;
+    opacity: 0.9;
+  }
+
+  #about-us-img img{
+    position: relative;
+    width: 70vw;
+    height: auto;
+    left: 15vw;
+    
+  }
+
+  #links{
+    position: relative;
+    margin-top: 60vh; 
+    width: 90vw;
+    left: 5vw;
+    font-size: 2rem;
+    text-align: center;
+    z-index:100; 
+  }
+
+  #links #content-wrapper a{
+    opacity: 0;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 6px;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+
+  #links #content-wrapper a:hover{
+    text-decoration: none;
+    /*color: #111111;*/
+    border: 2px solid #AC0000;
+    background-color:#AC0000;
+  }
+
+  #contact-us{
+    position: relative;
+    width: 80vw;
+    margin-top: 40vw;
+    left: 10vw;
+    height: 40vh;
+  }
+
+  #contact-us #caption{
+    opacity: 0;
+    /*font-style: italic;*/
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 200%;
+  }
+
+  #contact-us #heading{
+    color: #FFFFFF;
+    opacity: 0;
+    font-size: 3rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #address-section{
+    text-align: center;
+    position: relative;
+    margin-top: 50vh;
+    margin-left: 10vw;
+    margin-bottom: 30vh;
+  }
+
+  #address-section .row{
+    margin-bottom: 30px;
+  }
+
+  #address-section .row .heading{
+    text-align: left;
+    width: 20vw;
+    color: #FFFFFF;
+    font-size: 1.2em;
+  } 
+
+  #address-section .row .caption{
+    text-align: left;
+    width: 60vw;
+    font-size: 1.2em;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1999px){
+  
+  #particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 99;
+    background-color: rgba(0,0,0,0);
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+  #title{
+    position: relative;
+    top: 40vh;
+    height: 150vh;
+    width: 100vw;
+    text-align: center
+  }
+
+  #title #heading{
+    text-align: center;
+    position: relative;
+    letter-spacing: 35vw;
+    width: 30vw;
+    left:35vw;
+    opacity: 0;
+    background-color: #AC0000;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  #title #heading #heading-text{
+    font-size: 1.5rem;
+    font-weight: 100;
+    opacity: 0;
+    color: white;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #title #caption span{
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #title #caption{
+    text-align: center;
+    opacity: 0;
+  }
+
+  #idea{
+    position: relative;
+    width: 50vw;
+    left: 25vw;
+    height: 150vh;
+  }
+
+  #idea #heading{
+    opacity: 0;
+    font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+
+  #idea #caption{
+    opacity: 0;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 3.9px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 200%;
+  }
+
+  #about-us{
+    position: relative;
+    width: 70vw;
+    left: 15vw;
+  }
+
+  #about-us #heading{
+    opacity: 0;
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #about-us #caption{
+    opacity: 0;
+    /*font-style: italic;*/
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #about-us-img{
+    position: relative;
+    width: 100vw;
+    background-color: white;
+    margin-top :100px;
+    z-index: 100;
+    opacity: 0.9;
+  }
+
+  #about-us-img img{
+    position: relative;
+    width: 70vw;
+    height: auto;
+    left: 15vw;
+    
+  }
+
+  #links{
+    position: relative;
+    margin-top: 60vh; 
+    width: 90vw;
+    left: 5vw;
+    font-size: 3rem;
+    text-align: center;
+    z-index:100; 
+  }
+
+  #links #content-wrapper a{
+    opacity: 0;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 6px;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+
+  #links #content-wrapper a:hover{
+    text-decoration: none;
+    /*color: #111111;*/
+    border: 2px solid #AC0000;
+    background-color:#AC0000;
+  }
+
+  #contact-us{
+    position: relative;
+    width: 80vw;
+    margin-top: 40vw;
+    left: 10vw;
+    height: 40vh;
+  }
+
+  #contact-us #caption{
+    opacity: 0;
+    /*font-style: italic;*/
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 200%;
+  }
+
+  #contact-us #heading{
+    color: #FFFFFF;
+    opacity: 0;
+    font-size: 3rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #address-section{
+    text-align: center;
+    position: relative;
+    margin-top: 50vh;
+    margin-left: 10vw;
+    margin-bottom: 30vh;
+  }
+
+  #address-section .row{
+    margin-bottom: 30px;
+  }
+
+  #address-section .row .heading{
+    text-align: left;
+    width: 20vw;
+    color: #FFFFFF;
+    font-size: 1.2em;
+  } 
+
+  #address-section .row .caption{
+    text-align: left;
+    width: 60vw;
+    font-size: 1.2em;
+  }
+
+}
+
+
+
+

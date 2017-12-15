@@ -51,6 +51,18 @@ if(w > 750){
 						// .addIndicators()
 						.addTo(controller);
 
+	//Overview Section
+
+	var overview = new TimelineMax()
+					.to("#overview-sec #heading",1.5,{opacity:1})
+					.to("#overview-sec #caption",1,{opacity:1},2.5);
+
+	var overviewScene = new ScrollMagic.Scene({triggerElement:"#overview-sec #trigger",duration:300,offset:0})
+						.setPin("#overview-sec #heading")
+						.setTween(overview)
+						// .addIndicators()
+						.addTo(controller);
+
 
 	// Links animation
 

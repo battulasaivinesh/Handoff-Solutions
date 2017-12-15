@@ -246,6 +246,9 @@ canvas{
     
   }
 
+
+
+
   #links{
     position: relative;
     margin-top: 60vh; 
@@ -1118,6 +1121,65 @@ canvas{
     height: auto;
     left: 15vw;
     
+  }
+
+  #overview-sec{
+    position: relative;
+    margin-top: 40vw;
+    width: 70vw;
+    left: 15vw;
+  }
+
+  #overview-sec #heading{
+    opacity: 0;
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #overview-sec #caption{
+    opacity: 0;
+    /*font-style: italic;*/
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #overview-sec #list{
+    opacity: 1;
+    /*font-style: italic;*/
+    font-size: 1rem;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    font-weight: 100;
+    letter-spacing: 1px;
+    /*text-align: center;*/
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #overview-sec #list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #overview-sec #list ul li {
+    padding-left: 1em; 
+    text-indent: -.7em;
+  }
+
+  #overview-sec #list ul li::before {
+    content: "-> ";
+    margin-right: 1.2em;
+    color: white; /* or whatever color you prefer */
   }
 
   #links{

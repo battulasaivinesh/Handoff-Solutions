@@ -1,0 +1,567 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+html{
+  overflow-x: hidden;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+html,body{ 
+	width:100%;
+	height:100%;
+	background:#111;
+  color: #CCCCCC;
+  font-family: 'Source Code Pro',Courier, monospace;
+
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+    font-family: 'Source Code Pro',Courier, monospace;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+
+/* ---- stats.js ---- */
+
+
+/* ---- particles.js container ---- */
+
+
+
+#scroll-icon{
+  margin-top: 30vh;
+  text-align: center;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+  #particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0,0,0,0);
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+  #title{
+    position: relative;
+    top: 40vh;
+    height: 150vh;
+    width: 100vw;
+    text-align: center
+  }
+
+  #title #heading{
+    text-align: center;
+    position: relative;
+    letter-spacing: 35vw;
+    width: 70vw;
+    left:15vw;
+    opacity: 1;
+    /*background-color: ;*/
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  #title #heading #heading-text{
+    font-size: 1rem;
+    font-weight: 100;
+    opacity: 0;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #our-focus{
+    position: relative;
+    margin-top: 20vw;
+    margin-bottom: 25vh;
+    width: 70vw;
+    left: 15vw;
+  }
+
+  #our-focus #caption{
+    color: #FFFFFF;
+    /*opacity: 0;*/
+    /*font-style: italic;*/
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #our-focus #list{
+    text-align: center;
+    position: relative;
+    margin-left: 5vw;
+    margin-top: 5vh;
+  }
+
+  #our-focus #list .row{
+    margin-bottom: 30px;
+  }
+ 
+  #our-focus #list .row .heading{
+    text-align: left;
+    width: 90vw;
+    color: #FFFFFF;
+    font-size: 1em;
+  } 
+
+  #our-focus #list .row .caption{
+    margin-top: 30px;
+    text-align: left;
+    float: right;
+    width: 90vw;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 200%;
+  }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 759px){
+  #particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0,0,0,0);
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+  #title{
+    position: relative;
+    top: 40vh;
+    height: 150vh;
+    width: 100vw;
+    text-align: center
+  }
+
+  #title #heading{
+    text-align: center;
+    position: relative;
+    letter-spacing: 35vw;
+    width: 70vw;
+    left:15vw;
+    opacity: 1;
+    /*background-color: ;*/
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  #title #heading #heading-text{
+    font-size: 1.5rem;
+    font-weight: 100;
+    opacity: 0;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #our-focus{
+    position: relative;
+    margin-top: 20vw;
+    margin-bottom: 25vh;
+    width: 70vw;
+    left: 15vw;
+  }
+
+  #our-focus #caption{
+    color: #FFFFFF;
+    /*opacity: 0;*/
+    /*font-style: italic;*/
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #our-focus #list{
+    text-align: center;
+    position: relative;
+    margin-left: 5vw;
+    margin-top: 10vh;
+  }
+
+  #our-focus #list .row{
+    margin-bottom: 30px;
+  }
+ 
+  #our-focus #list .row .heading{
+    text-align: left;
+    width: 90vw;
+    color: #FFFFFF;
+    font-size: 1em;
+  } 
+
+  #our-focus #list .row .caption{
+    margin-top: 30px;
+    text-align: left;
+    float: right;
+    width: 90vw;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 200%;
+    margin-left: 15px;
+  }
+
+}
+
+@media only screen and (min-width: 760px) and (max-width: 991px){
+  
+  #particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0,0,0,0);
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+   #title{
+    position: relative;
+    top: 40vh;
+    height: 150vh;
+    width: 100vw;
+    text-align: center
+  }
+
+  #title #heading{
+    text-align: center;
+    position: relative;
+    letter-spacing: 35vw;
+    width: 70vw;
+    left:15vw;
+    opacity: 1;
+    /*background-color: ;*/
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  #title #heading #heading-text{
+    font-size: 2rem;
+    font-weight: 100;
+    opacity: 0;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #our-focus{
+    position: relative;
+    margin-top: 20vw;
+    margin-bottom: 25vh;
+    width: 70vw;
+    left: 15vw;
+  }
+
+  #our-focus #caption{
+    color: #FFFFFF;
+    /*opacity: 0;*/
+    /*font-style: italic;*/
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #our-focus #list{
+    text-align: center;
+    position: relative;
+    margin-left: 5vw;
+    margin-top: 10vh;
+  }
+
+  #our-focus #list .row{
+    margin-bottom: 30px;
+  }
+ 
+  #our-focus #list .row .heading{
+    text-align: left;
+    width: 90vw;
+    color: #FFFFFF;
+    font-size: 1em;
+  } 
+
+  #our-focus #list .row .caption{
+    margin-top: 30px;
+    text-align: left;
+    float: right;
+    width: 90vw;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 200%;
+    margin-left: 15px;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1100px){
+  #particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 99;
+    background-color: rgba(0,0,0,0);
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+   #title{
+    position: relative;
+    top: 40vh;
+    height: 150vh;
+    width: 100vw;
+    text-align: center
+  }
+
+  #title #heading{
+    text-align: center;
+    position: relative;
+    letter-spacing: 35vw;
+    width: 70vw;
+    left:15vw;
+    opacity: 1;
+    /*background-color: ;*/
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  #title #heading #heading-text{
+    font-size: 2rem;
+    font-weight: 100;
+    opacity: 0;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #our-focus{
+    position: relative;
+    margin-top: 20vw;
+    margin-bottom: 25vh;
+    width: 70vw;
+    left: 15vw;
+  }
+
+  #our-focus #caption{
+    color: #FFFFFF;
+    /*opacity: 0;*/
+    /*font-style: italic;*/
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #our-focus #list{
+    text-align: center;
+    position: relative;
+    margin-left: 5vw;
+    margin-top: 10vh;
+  }
+
+  #our-focus #list .row{
+    margin-bottom: 30px;
+  }
+ 
+  #our-focus #list .row .heading{
+    text-align: left;
+    width: 90vw;
+    color: #FFFFFF;
+    font-size: 1em;
+  } 
+
+  #our-focus #list .row .caption{
+    margin-top: 30px;
+    text-align: left;
+    float: right;
+    width: 90vw;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 200%;
+    margin-left: 15px;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1999px){
+  
+  #particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 99;
+    background-color: rgba(0,0,0,0);
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+  #title{
+    position: relative;
+    top: 40vh;
+    height: 150vh;
+    width: 100vw;
+    text-align: center
+  }
+
+  #title #heading{
+    text-align: center;
+    position: relative;
+    letter-spacing: 35vw;
+    width: 70vw;
+    left:15vw;
+    opacity: 1;
+    /*background-color: ;*/
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  #title #heading #heading-text{
+    font-size: 4rem;
+    font-weight: 100;
+    opacity: 0;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+
+  #our-focus{
+    position: relative;
+    margin-top: 20vw;
+    margin-bottom: 25vh;
+    width: 70vw;
+    left: 15vw;
+  }
+
+
+  #our-focus #caption{
+    color: #FFFFFF;
+    /*opacity: 0;*/
+    /*font-style: italic;*/
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+
+
+  #our-focus #list{
+    text-align: center;
+    position: relative;
+    
+    margin-left: 5vw;
+    margin-top: 5vh;
+  }
+
+  #our-focus #list .row{
+    margin-bottom: 30px;
+  }
+ 
+  #our-focus #list .row .heading{
+    text-align: left;
+    width: 20vw;
+    color: #FFFFFF;
+    font-size: 1.2em;
+  } 
+
+  #our-focus #list .row .caption{
+    text-align: left;
+    float: right;
+    width: 100vw;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-left: 40px;
+    margin-top: 30px;
+    line-height: 200%;
+  }
+  
+
+}
+
+
+
+

@@ -247,6 +247,67 @@ canvas{
   }
 
 
+  #overview-sec{
+    position: relative;
+    margin-top: 200vw;
+    width: 80vw;
+    left: 10vw;
+  }
+
+  #overview-sec #heading{
+    opacity: 1;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #overview-sec #caption{
+    opacity: 1;
+    /*font-style: italic;*/
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #overview-sec #list{
+    opacity: 1;
+    /*font-style: italic;*/
+    font-size: 0.8rem;
+    margin-left: 0vw;
+    margin-top: 5vh;
+    font-weight: 100;
+    letter-spacing: 1px;
+    /*text-align: center;*/
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #overview-sec #list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #overview-sec #list ul li {
+    padding-left: 1em; 
+    text-indent: -.7em;
+    display: block;
+  }
+
+  #overview-sec #list ul li::before {
+    content: "-> ";
+    margin-right: 1.2em;
+    color: white; /* or whatever color you prefer */
+  }
+
+
 
 
   #links{
@@ -471,9 +532,71 @@ canvas{
     
   }
 
+  #overview-sec{
+    position: relative;
+    margin-top: 100vw;
+    width: 80vw;
+    left: 10vw;
+  }
+
+  #overview-sec #heading{
+    opacity: 1;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #overview-sec #caption{
+    opacity: 1;
+    /*font-style: italic;*/
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #overview-sec #list{
+    opacity: 1;
+    /*font-style: italic;*/
+    font-size: 0.8rem;
+    margin-left: 0vw;
+    margin-top: 5vh;
+    font-weight: 100;
+    letter-spacing: 1px;
+    /*text-align: center;*/
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #overview-sec #list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #overview-sec #list ul li {
+    padding-left: 1em; 
+    text-indent: -.7em;
+    display: block;
+  }
+
+  #overview-sec #list ul li::before {
+    content: "-> ";
+    margin-right: 1.2em;
+    color: white; /* or whatever color you prefer */
+  }
+
+
+
   #links{
     position: relative;
-    margin-top: 60vh; 
+    margin-top: 100vh; 
     width: 100vw;
     /*left: 5vw;*/
     font-size: 1.3rem;
@@ -690,6 +813,66 @@ canvas{
     
   }
 
+  #overview-sec{
+    position: relative;
+    margin-top: 100vw;
+    width: 80vw;
+    left: 10vw;
+  }
+
+  #overview-sec #heading{
+    opacity: 0;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #overview-sec #caption{
+    opacity: 0;
+    /*font-style: italic;*/
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #overview-sec #list{
+    opacity: 1;
+    /*font-style: italic;*/
+    font-size: 1rem;
+    margin-left: 0vw;
+    margin-top: 5vh;
+    font-weight: 100;
+    letter-spacing: 1px;
+    /*text-align: center;*/
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #overview-sec #list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #overview-sec #list ul li {
+    padding-left: 1em; 
+    text-indent: -.7em;
+    display: block;
+  }
+
+  #overview-sec #list ul li::before {
+    content: "-> ";
+    margin-right: 1.2em;
+    color: white; /* or whatever color you prefer */
+  }
+
 
   #links{
     position: relative;
@@ -806,8 +989,8 @@ canvas{
     text-align: center;
     position: relative;
     letter-spacing: 35vw;
-    width: 30vw;
-    left:35vw;
+    width: 40vw;
+    left:30vw;
     opacity: 0;
     background-color: #AC0000;
     padding: 10px;
@@ -908,6 +1091,68 @@ canvas{
     left: 15vw;
     
   }
+
+
+  #overview-sec{
+    position: relative;
+    margin-top: 100vw;
+    width: 80vw;
+    left: 10vw;
+  }
+
+  #overview-sec #heading{
+    opacity: 0;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #overview-sec #caption{
+    opacity: 0;
+    /*font-style: italic;*/
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #overview-sec #list{
+    opacity: 1;
+    /*font-style: italic;*/
+    font-size: 1rem;
+    margin-left: 0vw;
+    margin-top: 5vh;
+    font-weight: 100;
+    letter-spacing: 1px;
+    /*text-align: center;*/
+    /*text-transform: lowercase;*/
+    line-height: 200%;
+  }
+
+  #overview-sec #list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #overview-sec #list ul li {
+    padding-left: 1em; 
+    text-indent: -.7em;
+    display: block;
+  }
+
+  #overview-sec #list ul li::before {
+    content: "-> ";
+    margin-right: 1.2em;
+    color: white; /* or whatever color you prefer */
+  }
+
 
   #links{
     position: relative;
@@ -1174,6 +1419,7 @@ canvas{
   #overview-sec #list ul li {
     padding-left: 1em; 
     text-indent: -.7em;
+    display: block;
   }
 
   #overview-sec #list ul li::before {

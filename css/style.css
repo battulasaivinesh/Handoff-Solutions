@@ -176,7 +176,7 @@ canvas{
     height: 150vh;
   }
 
-  #idea #heading{
+  #idea #holder #heading{
     position: relative;
     z-index: 99;
     opacity: 1;
@@ -188,7 +188,7 @@ canvas{
     text-transform: uppercase;
   }
 
-  #idea #caption{
+  #idea #holder #caption{
     color: #FFFFFF;
     position: relative;
     z-index: 99;
@@ -290,23 +290,28 @@ canvas{
   }
 
   #overview-sec #list ul {
+    margin-top: 20px;
     list-style: none;
     padding: 0;
-    margin: 0;
+    list-style-position: outside;
+    margin-left: 1em;
   }
 
   #overview-sec #list ul li {
-    padding-left: 1em; 
-    text-indent: -.7em;
+     text-indent: -1.3em;
+    margin-bottom: 5px;
     display: block;
+    list-style-type: none;
+    position: relative;
+    padding-left: 5px;
+    line-height: 150%;
+    word-spacing: 2px;
   }
 
   #overview-sec #list ul li::before {
-    content: "-> ";
-    margin-right: 1.2em;
-    color: white; /* or whatever color you prefer */
+    content: "• ";
+    color: white;
   }
-
 
 
 
@@ -462,7 +467,7 @@ canvas{
     height: 150vh;
   }
 
-  #idea #heading{
+  #idea #holder #heading{
     position: relative;
     z-index: 99;
     opacity: 1;
@@ -474,7 +479,7 @@ canvas{
     text-transform: uppercase;
   }
 
-  #idea #caption{
+  #idea #holder #caption{
     color: #FFFFFF;
     position: relative;
     z-index: 99;
@@ -575,21 +580,27 @@ canvas{
   }
 
   #overview-sec #list ul {
+    margin-top: 20px;
     list-style: none;
     padding: 0;
-    margin: 0;
+    list-style-position: outside;
+    margin-left: 1em;
   }
 
   #overview-sec #list ul li {
-    padding-left: 1em; 
-    text-indent: -.7em;
+     text-indent: -1.3em;
+    margin-bottom: 5px;
     display: block;
+    list-style-type: none;
+    position: relative;
+    padding-left: 5px;
+    line-height: 150%;
+    word-spacing: 2px;
   }
 
   #overview-sec #list ul li::before {
-    content: "-> ";
-    margin-right: 1.2em;
-    color: white; /* or whatever color you prefer */
+    content: "• ";
+    color: white;
   }
 
 
@@ -748,7 +759,7 @@ canvas{
     height: 150vh;
   }
 
-  #idea #heading{
+  #idea #holder #heading{
     opacity: 0;
     font-size: 2rem;
     font-weight: 100;
@@ -758,7 +769,7 @@ canvas{
     text-transform: uppercase;
   }
 
-  #idea #caption{
+  #idea #holder #caption{
     opacity: 0;
     font-style: italic;
     font-size: 1rem;
@@ -856,21 +867,27 @@ canvas{
   }
 
   #overview-sec #list ul {
+    margin-top: 20px;
     list-style: none;
     padding: 0;
-    margin: 0;
+    list-style-position: outside;
+    margin-left: 1em;
   }
 
   #overview-sec #list ul li {
-    padding-left: 1em; 
-    text-indent: -.7em;
+     text-indent: -1.3em;
+    margin-bottom: 5px;
     display: block;
+    list-style-type: none;
+    position: relative;
+    padding-left: 5px;
+    line-height: 150%;
+    word-spacing: 2px;
   }
 
   #overview-sec #list ul li::before {
-    content: "-> ";
-    margin-right: 1.2em;
-    color: white; /* or whatever color you prefer */
+    content: "• ";
+    color: white;
   }
 
 
@@ -1027,7 +1044,7 @@ canvas{
     height: 150vh;
   }
 
-  #idea #heading{
+  #idea #holder #heading{
     opacity: 0;
     font-size: 2.5rem;
     font-weight: 100;
@@ -1037,7 +1054,7 @@ canvas{
     text-transform: uppercase;
   }
 
-  #idea #caption{
+  #idea #holder #caption{
     opacity: 0;
     font-style: italic;
     font-size: 1rem;
@@ -1136,21 +1153,27 @@ canvas{
   }
 
   #overview-sec #list ul {
+    margin-top: 20px;
     list-style: none;
     padding: 0;
-    margin: 0;
+    list-style-position: outside;
+    margin-left: 1em;
   }
 
   #overview-sec #list ul li {
-    padding-left: 1em; 
-    text-indent: -.7em;
+     text-indent: -1.3em;
+    margin-bottom: 5px;
     display: block;
+    list-style-type: none;
+    position: relative;
+    padding-left: 5px;
+    line-height: 150%;
+    word-spacing: 2px;
   }
 
   #overview-sec #list ul li::before {
-    content: "-> ";
-    margin-right: 1.2em;
-    color: white; /* or whatever color you prefer */
+    content: "• ";
+    color: white;
   }
 
 
@@ -1300,10 +1323,10 @@ canvas{
     position: relative;
     width: 50vw;
     left: 25vw;
-    height: 150vh;
+    height: 100vh;
   }
 
-  #idea #heading{
+  #idea #holder #heading{
     opacity: 0;
     font-size: 2.5rem;
     font-weight: 100;
@@ -1313,7 +1336,7 @@ canvas{
     text-transform: uppercase;
   }
 
-  #idea #caption{
+  #idea #holder #caption{
     opacity: 0;
     font-style: italic;
     font-size: 1rem;
@@ -1411,22 +1434,29 @@ canvas{
   }
 
   #overview-sec #list ul {
+    margin-top: 20px;
     list-style: none;
     padding: 0;
-    margin: 0;
+    list-style-position: outside;
+    margin-left: 1em;
   }
 
   #overview-sec #list ul li {
-    padding-left: 1em; 
-    text-indent: -.7em;
+     text-indent: -1.3em;
+    margin-bottom: 5px;
     display: block;
+    list-style-type: none;
+    position: relative;
+    padding-left: 5px;
+    line-height: 150%;
+    word-spacing: 2px;
   }
 
   #overview-sec #list ul li::before {
-    content: "-> ";
-    margin-right: 1.2em;
-    color: white; /* or whatever color you prefer */
+    content: "• ";
+    color: white;
   }
+
 
   #links{
     position: relative;

@@ -112,54 +112,84 @@ canvas{
     text-transform: uppercase;
   }
 
-  #our-focus{
+
+  #idea{
     position: relative;
-    margin-top: 20vw;
-    margin-bottom: 25vh;
-    width: 70vw;
-    left: 15vw;
+    width: 80vw;
+    left: 10vw;
+    height: 100vh;
   }
 
-  #our-focus #caption{
+  #idea #holder #heading{
+    opacity: 1;
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
     color: #FFFFFF;
-    /*opacity: 0;*/
+    text-transform: uppercase;
+    line-height: 150%;
+  }
+
+  #idea #holder #caption{
+    opacity: 1;
     /*font-style: italic;*/
+    font-size: 0.7rem;
+    font-weight: 100;
+    letter-spacing: 3.9px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 200%;
+  }
+
+  .about-us{
+    position: relative;
+    width: 70vw;
+    left: 15vw;
+    margin-top: 40vh;
+  }
+
+  .about-us #heading{
+    opacity: 1;
     font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 150%;
+  }
+
+  .about-us #caption{
+    opacity: 1;
+    /*font-style: italic;*/
+    font-size: 0.8rem;
     font-weight: 100;
     letter-spacing: 1px;
     text-align: center;
-
     /*text-transform: lowercase;*/
     line-height: 200%;
   }
 
-  #our-focus #list{
-    text-align: center;
+  .about-us-img{
     position: relative;
-    margin-left: 5vw;
-    margin-top: 5vh;
+    width: 100vw;
+    opacity: 1;
+    background-color: white;
+    margin-top :100px;
+    z-index: 100;
   }
 
-  #our-focus #list .row{
-    margin-bottom: 30px;
-  }
- 
-  #our-focus #list .row .heading{
-    text-align: left;
-    width: 90vw;
-    color: #FFFFFF;
-    font-size: 1em;
-  } 
-
-  #our-focus #list .row .caption{
-    margin-top: 30px;
-    text-align: left;
-    float: right;
-    width: 90vw;
-    font-size: 1rem;
-    font-weight: 100;
-    letter-spacing: 1px;
-    line-height: 200%;
+  .about-us-img img{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    /*left: 15vw;*/
+    
+  }  
+  
+  #space{
+    height: 20vh;
   }
 
 }
@@ -207,55 +237,83 @@ canvas{
     text-transform: uppercase;
   }
 
-  #our-focus{
+  #idea{
     position: relative;
-    margin-top: 20vw;
-    margin-bottom: 25vh;
-    width: 70vw;
-    left: 15vw;
+    width: 80vw;
+    left: 10vw;
+    height: 100vh;
   }
 
-  #our-focus #caption{
+  #idea #holder #heading{
+    opacity: 1;
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
     color: #FFFFFF;
-    /*opacity: 0;*/
+    text-transform: uppercase;
+    line-height: 150%;
+  }
+
+  #idea #holder #caption{
+    opacity: 1;
     /*font-style: italic;*/
+    font-size: 0.7rem;
+    font-weight: 100;
+    letter-spacing: 3.9px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 200%;
+  }
+
+  .about-us{
+    position: relative;
+    width: 70vw;
+    left: 15vw;
+    margin-top: 40vh;
+  }
+
+  .about-us #heading{
+    opacity: 1;
     font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 150%;
+  }
+
+  .about-us #caption{
+    opacity: 1;
+    /*font-style: italic;*/
+    font-size: 0.8rem;
     font-weight: 100;
     letter-spacing: 1px;
     text-align: center;
-
     /*text-transform: lowercase;*/
     line-height: 200%;
   }
 
-  #our-focus #list{
-    text-align: center;
+  .about-us-img{
     position: relative;
-    margin-left: 5vw;
-    margin-top: 10vh;
+    width: 100vw;
+    opacity: 1;
+    background-color: white;
+    margin-top :100px;
+    z-index: 100;
   }
 
-  #our-focus #list .row{
-    margin-bottom: 30px;
-  }
- 
-  #our-focus #list .row .heading{
-    text-align: left;
-    width: 90vw;
-    color: #FFFFFF;
-    font-size: 1em;
-  } 
-
-  #our-focus #list .row .caption{
-    margin-top: 30px;
-    text-align: left;
-    float: right;
-    width: 90vw;
-    font-size: 1rem;
-    font-weight: 100;
-    letter-spacing: 1px;
-    line-height: 200%;
-    margin-left: 15px;
+  .about-us-img img{
+    position: relative;
+    width: 80vw;
+    height: auto;
+    left: 10vw;
+    
+  }  
+  
+  #space{
+    height: 20vh;
   }
 
 }
@@ -304,55 +362,83 @@ canvas{
     text-transform: uppercase;
   }
 
-  #our-focus{
+  #idea{
     position: relative;
-    margin-top: 20vw;
-    margin-bottom: 25vh;
-    width: 70vw;
-    left: 15vw;
+    width: 80vw;
+    left: 10vw;
+    height: 100vh;
   }
 
-  #our-focus #caption{
+  #idea #holder #heading{
+    opacity: 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
     color: #FFFFFF;
-    /*opacity: 0;*/
+    text-transform: uppercase;
+    line-height: 150%;
+  }
+
+  #idea #holder #caption{
+    opacity: 0;
     /*font-style: italic;*/
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 100;
+    letter-spacing: 3.9px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 200%;
+  }
+
+  .about-us{
+    position: relative;
+    width: 70vw;
+    left: 15vw;
+    margin-top: 40vh;
+  }
+
+  .about-us #heading{
+    opacity: 0;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 150%;
+  }
+
+  .about-us #caption{
+    opacity: 0;
+    /*font-style: italic;*/
+    font-size: 1.1rem;
     font-weight: 100;
     letter-spacing: 1px;
     text-align: center;
-
     /*text-transform: lowercase;*/
     line-height: 200%;
   }
 
-  #our-focus #list{
-    text-align: center;
+  .about-us-img{
     position: relative;
-    margin-left: 5vw;
-    margin-top: 10vh;
+    width: 100vw;
+    opacity: 0;
+    background-color: white;
+    margin-top :100px;
+    z-index: 100;
   }
 
-  #our-focus #list .row{
-    margin-bottom: 30px;
-  }
- 
-  #our-focus #list .row .heading{
-    text-align: left;
-    width: 90vw;
-    color: #FFFFFF;
-    font-size: 1em;
-  } 
-
-  #our-focus #list .row .caption{
-    margin-top: 30px;
-    text-align: left;
-    float: right;
-    width: 90vw;
-    font-size: 1rem;
-    font-weight: 100;
-    letter-spacing: 1px;
-    line-height: 200%;
-    margin-left: 15px;
+  .about-us-img img{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    /*left: 15vw;*/
+    
+  }  
+  
+  #space{
+    height: 20vh;
   }
 
 }
@@ -403,55 +489,83 @@ canvas{
     text-transform: uppercase;
   }
 
-  #our-focus{
+  #idea{
     position: relative;
-    margin-top: 20vw;
-    margin-bottom: 25vh;
-    width: 70vw;
-    left: 15vw;
+    width: 80vw;
+    left: 10vw;
+    height: 100vh;
   }
 
-  #our-focus #caption{
+  #idea #holder #heading{
+    opacity: 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
     color: #FFFFFF;
-    /*opacity: 0;*/
+    text-transform: uppercase;
+    line-height: 150%;
+  }
+
+  #idea #holder #caption{
+    opacity: 0;
     /*font-style: italic;*/
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 100;
+    letter-spacing: 3.9px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 200%;
+  }
+
+  .about-us{
+    position: relative;
+    width: 70vw;
+    left: 15vw;
+    margin-top: 40vh;
+  }
+
+  .about-us #heading{
+    opacity: 0;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 150%;
+  }
+
+  .about-us #caption{
+    opacity: 0;
+    /*font-style: italic;*/
+    font-size: 1.1rem;
     font-weight: 100;
     letter-spacing: 1px;
     text-align: center;
-
     /*text-transform: lowercase;*/
     line-height: 200%;
   }
 
-  #our-focus #list{
-    text-align: center;
+  .about-us-img{
     position: relative;
-    margin-left: 5vw;
-    margin-top: 10vh;
+    width: 100vw;
+    opacity: 0;
+    background-color: white;
+    margin-top :100px;
+    z-index: 100;
   }
 
-  #our-focus #list .row{
-    margin-bottom: 30px;
-  }
- 
-  #our-focus #list .row .heading{
-    text-align: left;
-    width: 90vw;
-    color: #FFFFFF;
-    font-size: 1em;
-  } 
-
-  #our-focus #list .row .caption{
-    margin-top: 30px;
-    text-align: left;
-    float: right;
-    width: 90vw;
-    font-size: 1rem;
-    font-weight: 100;
-    letter-spacing: 1px;
-    line-height: 200%;
-    margin-left: 15px;
+  .about-us-img img{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    /*left: 15vw;*/
+    
+  }  
+  
+  #space{
+    height: 20vh;
   }
 
 
@@ -504,61 +618,82 @@ canvas{
   }
 
 
-  #our-focus{
+  #idea{
     position: relative;
-    margin-top: 20vw;
-    margin-bottom: 25vh;
-    width: 70vw;
-    left: 15vw;
+    width: 80vw;
+    left: 10vw;
+    height: 100vh;
   }
 
-
-  #our-focus #caption{
+  #idea #holder #heading{
+    opacity: 0;
+    font-size: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
     color: #FFFFFF;
-    /*opacity: 0;*/
+    text-transform: uppercase;
+  }
+
+  #idea #holder #caption{
+    opacity: 0;
     /*font-style: italic;*/
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: 3.9px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 200%;
+  }
+
+  .about-us{
+    position: relative;
+    width: 70vw;
+    left: 15vw;
+    margin-top: 40vh;
+  }
+
+  .about-us #heading{
+    opacity: 0;
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .about-us #caption{
+    opacity: 0;
+    /*font-style: italic;*/
+    font-size: 1.3rem;
     font-weight: 100;
     letter-spacing: 1px;
     text-align: center;
-
     /*text-transform: lowercase;*/
     line-height: 200%;
   }
 
-
-
-  #our-focus #list{
-    text-align: center;
+  .about-us-img{
     position: relative;
-    
-    margin-left: 5vw;
-    margin-top: 5vh;
-  }
-
-  #our-focus #list .row{
-    margin-bottom: 30px;
-  }
- 
-  #our-focus #list .row .heading{
-    text-align: left;
-    width: 20vw;
-    color: #FFFFFF;
-    font-size: 1.2em;
-  } 
-
-  #our-focus #list .row .caption{
-    text-align: left;
-    float: right;
     width: 100vw;
-    font-size: 1rem;
-    font-weight: 100;
-    letter-spacing: 1px;
-    margin-left: 40px;
-    margin-top: 30px;
-    line-height: 200%;
+    opacity: 0;
+    background-color: white;
+    margin-top :100px;
+    z-index: 100;
   }
-  
+
+  .about-us-img img{
+    position: relative;
+    width: 70vw;
+    height: auto;
+    left: 15vw;
+    
+  }  
+
+  #space{
+    height: 20vh;
+  }
 
 }
 

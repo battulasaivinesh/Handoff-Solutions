@@ -30,11 +30,13 @@ if(w > 750){
 
 	var ideaHeading = new TimelineMax()
 					.to("#idea #heading",1,{opacity:1})
-					.to("#idea #caption",1,{opacity:1},2.5);
+					.to("#idea #caption",1,{opacity:1},2.5)
+					.to("#idea #heading",1,{opacity:0},5)
+					.to("#idea #caption",1,{opacity:0},5);;
 
 
-	var ideaScene = new ScrollMagic.Scene({triggerElement:"#idea #trigger",duration:300,offset:0})
-						.setPin("#idea #heading")
+	var ideaScene = new ScrollMagic.Scene({triggerElement:"#idea #trigger",duration:600,offset:0,triggerHook:0.4})
+						.setPin("#idea #holder")
 						.setTween(ideaHeading)
 						// .addIndicators()					
 						.addTo(controller);
@@ -43,9 +45,9 @@ if(w > 750){
 
 	var aboutHeading = new TimelineMax()
 					.to("#about-us #heading",1.5,{opacity:1})
-					.to("#about-us #caption",1,{opacity:1},2.5);
+					.to("#about-us #caption",1,{opacity:1},2);
 
-	var aboutScene = new ScrollMagic.Scene({triggerElement:"#about-us #trigger",duration:300,offset:0})
+	var aboutScene = new ScrollMagic.Scene({triggerElement:"#about-us #trigger",duration:300,offset:0,triggerHook:0.4})
 						.setPin("#about-us #heading")
 						.setTween(aboutHeading)
 						// .addIndicators()
@@ -55,9 +57,9 @@ if(w > 750){
 
 	var overview = new TimelineMax()
 					.to("#overview-sec #heading",1.5,{opacity:1})
-					.to("#overview-sec #caption",1,{opacity:1},2.5);
+					.to("#overview-sec #caption",1,{opacity:1},2);
 
-	var overviewScene = new ScrollMagic.Scene({triggerElement:"#overview-sec #trigger",duration:300,offset:0})
+	var overviewScene = new ScrollMagic.Scene({triggerElement:"#overview-sec #trigger",duration:300,offset:0,triggerHook:0.4})
 						.setPin("#overview-sec #heading")
 						.setTween(overview)
 						// .addIndicators()
@@ -71,7 +73,7 @@ if(w > 750){
 					.to('#our-focus',1,{opacity:1})
 					.to('#our-offerings',1,{opacity:1});
 
-	var linksScene = new ScrollMagic.Scene({triggerElement:"#links #trigger",duration:400,triggerHook:0.4,offset:0})
+	var linksScene = new ScrollMagic.Scene({triggerElement:"#links #trigger",duration:400,triggerHook:0.4,offset:0,triggerHook:0.4})
 						 .setPin("#content-wrapper")
 						 .setTween(linksTimeline)
 						 // .addIndicators()
@@ -83,9 +85,9 @@ if(w > 750){
 
 	var contactHeading = new TimelineMax()
 					.to("#contact-us #heading",1.5,{opacity:1})
-					.to("#contact-us #caption",1,{opacity:1},2.5);
+					.to("#contact-us #caption",1,{opacity:1},2);
 
-	var contactScene = new ScrollMagic.Scene({triggerElement:"#contact-us #trigger",duration:300,offset:0})
+	var contactScene = new ScrollMagic.Scene({triggerElement:"#contact-us #trigger",duration:300,offset:0,triggerHook:0.4})
 						.setPin("#contact-us #heading")
 						.setTween(contactHeading)
 						// .addIndicators()

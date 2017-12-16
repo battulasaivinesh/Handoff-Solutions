@@ -103,7 +103,7 @@ canvas{
   }
 
   #title #heading #heading-text{
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 100;
     opacity: 0;
     color: white;
@@ -124,7 +124,7 @@ canvas{
     color: #FFFFFF;
     /*opacity: 0;*/
     /*font-style: italic;*/
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     font-weight: 100;
     letter-spacing: 1px;
     text-align: center;
@@ -136,7 +136,7 @@ canvas{
   #our-focus .heading{
     text-align: left;
     position: relative;
-    font-size: 1.3em;
+    font-size: 0.8em;
     margin-top: 10vh;
     color: #FFFFFF;
   }
@@ -145,20 +145,25 @@ canvas{
     margin-top: 20px;
     list-style: none;
     padding: 0;
+    list-style-position: outside;
+    margin-left: 1em;
   }
 
-  #our-focus ul li {
-    padding-left: 1em; 
-    text-indent: -.7em;
+  #our-focus ul li { 
+    text-indent: -1.3em;
     margin-bottom: 5px;
     display: block;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
+    list-style-type: none;
+    position: relative;
+    padding-left: 5px;
+    line-height: 150%;
+    word-spacing: 2px;
   }
 
   #our-focus ul li::before {
-    content: "-> ";
-    /*margin-right: 1.2em;*/
-    color: white; /* or whatever color you prefer */
+    content: "• ";
+    color: white;
   }
 
   #offering-img{
@@ -236,7 +241,7 @@ canvas{
     color: #FFFFFF;
     /*opacity: 0;*/
     /*font-style: italic;*/
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     font-weight: 100;
     letter-spacing: 1px;
     text-align: center;
@@ -248,7 +253,7 @@ canvas{
   #our-focus .heading{
     text-align: left;
     position: relative;
-    font-size: 1.3em;
+    font-size: 0.8em;
     margin-top: 10vh;
     color: #FFFFFF;
   }
@@ -257,21 +262,27 @@ canvas{
     margin-top: 20px;
     list-style: none;
     padding: 0;
+    list-style-position: outside;
+    margin-left: 1em;
   }
 
-  #our-focus ul li {
-    padding-left: 1em; 
-    text-indent: -.7em;
+  #our-focus ul li { 
+    text-indent: -1.3em;
     margin-bottom: 5px;
     display: block;
-    font-size: 1.2rem;
+    font-size: 0.7rem;
+    list-style-type: none;
+    position: relative;
+    padding-left: 5px;
+    line-height: 150%;
+    word-spacing: 2px;
   }
 
   #our-focus ul li::before {
-    content: "-> ";
-    /*margin-right: 1.2em;*/
-    color: white; /* or whatever color you prefer */
+    content: "• ";
+    color: white;
   }
+
 
   #offering-img{
     position: relative;
@@ -285,9 +296,9 @@ canvas{
 
   #offering-img img{
     position: relative;
-    width: 80vw;
+    width: 90vw;
     height: auto;
-    left: 10vw;
+    left: 5vw;
     
   }
 
@@ -370,21 +381,27 @@ canvas{
     margin-top: 20px;
     list-style: none;
     padding: 0;
+    list-style-position: outside;
+    margin-left: 1em;
   }
 
-  #our-focus ul li {
-    padding-left: 1em; 
-    text-indent: -.7em;
+  #our-focus ul li { 
+    text-indent: -1.3em;
     margin-bottom: 5px;
     display: block;
     font-size: 1.2rem;
+    list-style-type: none;
+    position: relative;
+    padding-left: 5px;
+    line-height: 150%;
+    word-spacing: 2px;
   }
 
   #our-focus ul li::before {
-    content: "-> ";
-    /*margin-right: 1.2em;*/
-    color: white; /* or whatever color you prefer */
+    content: "• ";
+    color: white;
   }
+
 
   #offering-img{
     position: relative;
@@ -485,21 +502,27 @@ canvas{
     margin-top: 20px;
     list-style: none;
     padding: 0;
+    list-style-position: outside;
+    margin-left: 1em;
   }
 
-  #our-focus ul li {
-    padding-left: 1em; 
-    text-indent: -.7em;
+  #our-focus ul li { 
+    text-indent: -1.3em;
     margin-bottom: 5px;
     display: block;
     font-size: 1.2rem;
+    list-style-type: none;
+    position: relative;
+    padding-left: 5px;
+    line-height: 150%;
+    word-spacing: 2px;
   }
 
   #our-focus ul li::before {
-    content: "-> ";
-    /*margin-right: 1.2em;*/
-    color: white; /* or whatever color you prefer */
+    content: "• ";
+    color: white;
   }
+
 
   #offering-img{
     position: relative;
@@ -605,20 +628,25 @@ canvas{
     margin-top: 20px;
     list-style: none;
     padding: 0;
+    list-style-position: outside;
+    margin-left: 1em;
   }
 
   #our-focus ul li {
-    padding-left: 1em; 
-    text-indent: -.7em;
+    text-indent: -1.3em;
     margin-bottom: 5px;
     display: block;
     font-size: 1.2rem;
+    list-style-type: none;
+    position: relative;
+    padding-left: 5px;
+    line-height: 150%;
+    word-spacing: 2px;
   }
 
   #our-focus ul li::before {
-    content: "-> ";
-    /*margin-right: 1.2em;*/
-    color: white; /* or whatever color you prefer */
+    content: "• ";
+    color: white;
   }
 
   #offering-img{

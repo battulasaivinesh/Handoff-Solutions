@@ -1516,7 +1516,7 @@ canvas{
   #address-section{
     text-align: center;
     position: relative;
-    margin-top: 50vh;
+    margin-top: 30vh;
     margin-left: 10vw;
     margin-bottom: 30vh;
   }
@@ -1527,9 +1527,10 @@ canvas{
 
   #address-section .row .heading{
     text-align: left;
-    width: 20vw;
+    width: 10vw;
     color: #FFFFFF;
     font-size: 1.2em;
+    margin-left: 10vh;
   } 
 
   #address-section .row .caption{

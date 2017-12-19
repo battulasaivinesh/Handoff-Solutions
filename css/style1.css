@@ -206,6 +206,7 @@ canvas{
     position: relative;
     width: 70vw;
     left: 15vw;
+    height:60vh;
   }
 
   #about-us #heading{
@@ -497,6 +498,7 @@ canvas{
     position: relative;
     width: 70vw;
     left: 15vw;
+    height: 60vh;
   }
 
   #about-us #heading{
@@ -784,6 +786,7 @@ canvas{
     position: relative;
     width: 70vw;
     left: 15vw;
+    height: 100vh;
   }
 
   #about-us #heading{
@@ -1069,6 +1072,7 @@ canvas{
     position: relative;
     width: 70vw;
     left: 15vw;
+    height: 100vh;
   }
 
   #about-us #heading{
@@ -1351,6 +1355,7 @@ canvas{
     position: relative;
     width: 70vw;
     left: 15vw;
+    height: 100vh;
   }
 
   #about-us #heading{
@@ -1516,7 +1521,7 @@ canvas{
   #address-section{
     text-align: center;
     position: relative;
-    margin-top: 30vh;
+    margin-top: 20vh;
     margin-left: 10vw;
     margin-bottom: 30vh;
   }

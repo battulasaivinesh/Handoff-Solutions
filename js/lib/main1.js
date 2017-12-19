@@ -44,54 +44,54 @@ if(w > 750){
 	// About us animation
 
 	var aboutHeading = new TimelineMax()
-					.to("#about-us #heading",1.5,{opacity:1})
-					.to("#about-us #caption",1,{opacity:1},2);
+					.to("#about-us #heading",1.5,{opacity:1});
+					// .to("#about-us #caption",1,{opacity:1},2);
 
-	var aboutScene = new ScrollMagic.Scene({triggerElement:"#about-us #trigger",duration:300,offset:0,triggerHook:0.4})
+	var aboutScene = new ScrollMagic.Scene({triggerElement:"#about-us #trigger",duration:400,offset:0,triggerHook:0.4})
 						.setPin("#about-us #heading")
 						.setTween(aboutHeading)
 						// .addIndicators()
 						.addTo(controller);
 
-	//Overview Section
+	// //Overview Section
 
-	var overview = new TimelineMax()
-					.to("#overview-sec #heading",1.5,{opacity:1})
-					.to("#overview-sec #caption",1,{opacity:1},2);
+	// var overview = new TimelineMax()
+	// 				.to("#overview-sec #heading",1.5,{opacity:1})
+	// 				.to("#overview-sec #caption",1,{opacity:1},2);
 
-	var overviewScene = new ScrollMagic.Scene({triggerElement:"#overview-sec #trigger",duration:300,offset:0,triggerHook:0.4})
-						.setPin("#overview-sec #heading")
-						.setTween(overview)
-						// .addIndicators()
-						.addTo(controller);
-
-
-	// Links animation
-
-	var linksTimeline = new TimelineMax()
-					.to('#overview',1,{opacity:1})
-					.to('#our-focus',1,{opacity:1})
-					.to('#our-offerings',1,{opacity:1});
-
-	var linksScene = new ScrollMagic.Scene({triggerElement:"#links #trigger",duration:400,triggerHook:0.4,offset:0,triggerHook:0.4})
-						 .setPin("#content-wrapper")
-						 .setTween(linksTimeline)
-						 // .addIndicators()
-						 .addTo(controller);
+	// var overviewScene = new ScrollMagic.Scene({triggerElement:"#overview-sec #trigger",duration:300,offset:0,triggerHook:0.4})
+	// 					.setPin("#overview-sec #heading")
+	// 					.setTween(overview)
+	// 					// .addIndicators()
+	// 					.addTo(controller);
 
 
+	// // Links animation
 
-	// Contact Us Animation
+	// var linksTimeline = new TimelineMax()
+	// 				.to('#overview',1,{opacity:1})
+	// 				.to('#our-focus',1,{opacity:1})
+	// 				.to('#our-offerings',1,{opacity:1});
 
-	var contactHeading = new TimelineMax()
-					.to("#contact-us #heading",1.5,{opacity:1})
-					.to("#contact-us #caption",1,{opacity:1},2);
+	// var linksScene = new ScrollMagic.Scene({triggerElement:"#links #trigger",duration:400,triggerHook:0.4,offset:0,triggerHook:0.4})
+	// 					 .setPin("#content-wrapper")
+	// 					 .setTween(linksTimeline)
+	// 					 // .addIndicators()
+	// 					 .addTo(controller);
 
-	var contactScene = new ScrollMagic.Scene({triggerElement:"#contact-us #trigger",duration:300,offset:0,triggerHook:0.4})
-						.setPin("#contact-us #heading")
-						.setTween(contactHeading)
-						// .addIndicators()
-						.addTo(controller);
+
+
+	// // Contact Us Animation
+
+	// var contactHeading = new TimelineMax()
+	// 				.to("#contact-us #heading",1.5,{opacity:1})
+	// 				.to("#contact-us #caption",1,{opacity:1},2);
+
+	// var contactScene = new ScrollMagic.Scene({triggerElement:"#contact-us #trigger",duration:300,offset:0,triggerHook:0.4})
+	// 					.setPin("#contact-us #heading")
+	// 					.setTween(contactHeading)
+	// 					// .addIndicators()
+	// 					.addTo(controller);
 
 
 }

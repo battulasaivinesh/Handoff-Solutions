@@ -5,7 +5,7 @@ var controller = new ScrollMagic.Controller();
 //Landing page animation
 
 var startTween = new TimelineMax()
-				.to("#particles-js",20,{opacity:1});
+				.to("#particles-js",10,{opacity:1});
 
 var startTween2 = new TimelineMax()
 				.to("#title #heading",1,{opacity:1})
@@ -44,14 +44,90 @@ if(w > 750){
 	// About us animation
 
 	var aboutHeading = new TimelineMax()
-					.to("#about-us #heading",1.5,{opacity:1});
-					// .to("#about-us #caption",1,{opacity:1},2);
+					.to("#about-us #heading",1.5,{opacity:1})
+					.to("#about-us #caption",1,{opacity:1},2);
 
 	var aboutScene = new ScrollMagic.Scene({triggerElement:"#about-us #trigger",duration:400,offset:0,triggerHook:0.4})
 						.setPin("#about-us #heading")
 						.setTween(aboutHeading)
 						// .addIndicators()
 						.addTo(controller);
+
+	// Our Offer Title Animation
+
+	var ourOfferHeading = new TimelineMax()
+					.to("#our-offering #heading",1.5,{opacity:1});
+					// .to("#our-offering #heading",1,{opacity:0},1.5);
+
+	var ourOfferScene = new ScrollMagic.Scene({triggerElement:"#our-offering #trigger",duration:400,offset:0,triggerHook:0.4})
+						.setPin("#our-offering #heading")
+						.setTween(ourOfferHeading)
+						// .addIndicators()
+						.addTo(controller);
+
+	// Our Offer One Animation
+
+	var ourOfferHeadingOne = new TimelineMax()
+					.to("#our-offering-one #heading",1.5,{opacity:1})
+					.to("#our-offering-one #caption",1,{opacity:1},2);
+
+	var ourOfferSceneOne = new ScrollMagic.Scene({triggerElement:"#our-offering-one #trigger",duration:400,offset:0,triggerHook:0.4})
+						.setPin("#our-offering-one #heading")
+						.setTween(ourOfferHeadingOne)
+						// .addIndicators()
+						.addTo(controller);
+
+
+	// Our Offer Two Animation
+
+	var ourOfferHeadingTwo = new TimelineMax()
+					.to("#our-offering-two #heading",1.5,{opacity:1})
+					.to("#our-offering-two #caption",1,{opacity:1},2);
+
+	var ourOfferSceneTwo = new ScrollMagic.Scene({triggerElement:"#our-offering-two #trigger",duration:400,offset:0,triggerHook:0.4})
+						.setPin("#our-offering-two #heading")
+						.setTween(ourOfferHeadingTwo)
+						// .addIndicators()
+						.addTo(controller);
+
+	// Our Offer Three Animation
+
+	var ourOfferHeadingThree = new TimelineMax()
+					.to("#our-offering-three #heading",1.5,{opacity:1})
+					.to("#our-offering-three #caption",1,{opacity:1},2);
+
+	var ourOfferSceneThree = new ScrollMagic.Scene({triggerElement:"#our-offering-three #trigger",duration:400,offset:0,triggerHook:0.4})
+						.setPin("#our-offering-three #heading")
+						.setTween(ourOfferHeadingThree)
+						// .addIndicators()
+						.addTo(controller);
+
+
+	// Our Offer Four Animation
+
+	var ourOfferHeadingFour = new TimelineMax()
+					.to("#our-offering-four #heading",1.5,{opacity:1})
+					.to("#our-offering-four #caption",1,{opacity:1},2);
+
+	var ourOfferSceneFour = new ScrollMagic.Scene({triggerElement:"#our-offering-four #trigger",duration:400,offset:0,triggerHook:0.4})
+						.setPin("#our-offering-four #heading")
+						.setTween(ourOfferHeadingFour)
+						// .addIndicators()
+						.addTo(controller);
+
+	// Add Ons
+
+	var addHeading = new TimelineMax()
+					.to("#add-ons #heading",1.5,{opacity:1})
+					.to("#add-ons #caption",1,{opacity:1},2);
+
+	var addScene = new ScrollMagic.Scene({triggerElement:"#add-ons #trigger",duration:400,offset:0,triggerHook:0.4})
+						.setPin("#add-ons #heading")
+						.setTween(addHeading)
+						// .addIndicators()
+						.addTo(controller);
+
+
 
 	// //Overview Section
 

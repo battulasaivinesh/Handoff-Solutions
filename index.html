@@ -4,16 +4,37 @@
   <meta charset="utf-8">
   <title>HandsOff Solutions</title>
   <!-- <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles."> -->
-  <meta name="author" content="Vincent Garreau" />
+  <meta name="author" content="Battula Sai Vinesh" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" media="screen" href="css/style1.css">
 
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 </head>
 <body>
 
 <div id="particles-js"></div>
+<div id="top"></div>
+<nav class="navbar navbar-default">
+    <div class="navbar-header nav-mobile">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+    </div>
+    <div class="container text-center">
+      <div class="navbar-collapse collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li data-toggle="collapse" data-target="#myNavbar" ><a  href="#top">HOME</a></li>
+          <li data-toggle="collapse" data-target="#myNavbar"><a  href="#about-us">OUR SERVICES</a></li>
+          <li data-toggle="collapse" data-target="#myNavbar"><a  href="#our-offering">OUR OFFERINGS</a></li> 
+          <li data-toggle="collapse" data-target="#myNavbar"><a  href="#contact">CONTACT US</a></li> 
+        </ul>
+      </div>
+    </div>
+</nav>
 
 <div id="title">
   <div id="heading"><span id="heading-text">HANDSOFF SOLUTIONS</span></div>
@@ -39,10 +60,172 @@
 
 <div id="about-us">
   <div id="trigger"></div>
-  <div id="heading">COMING SOON</div>
+  <div id="heading">OUR SERVICES</div>
   <br>
-  <!-- <div id="caption">We are a next-gen wireless Solutions based company focused on delivering solutions for enterprises by leveraging disruptive technologies of Cloud Computing, Internet of Things, Process Simulations, Mobility Solutions, business intelligence, analytics and unified communication
-We bring the ideal blend of technology to develop and enhance products for creating the right solutions with the right partner ecosystem and to integrate these solutions with business processes for creating end to end solutions.</div> -->
+  <div id="caption" class="ptsans">HandsOff Solutions Internet of Things service enables organizations to transform business needs into competitive differentiators by delivering innovative IoT powered solutions. From integrating the right sensors and deriving inspired insights to choosing the best-fit platform, we provide comprehensive IoT services to our clients. We empower organizations to: 
+  </div>
+
+  <div id="list" class="ptsans"s>
+    <ul>
+      <li>Measure process parameters e.g. temperature, humidity, pressure, fuel level, density, viscosity, etc.</li>
+      <li>Measure equipment health parameters e.g. temperature, vibration, speed, output, door status, breakdown, etc</li>
+      <li>Ensure preventive and predictive “Reliability Centric Maintenance” of equipment and plant.</li>
+      <li>Monitor, control and forecast production parameters e.g. quality, throughput, etc.</li>
+      <li>Detect safety threats e.g. level of hazardous gases or fluids, leaks, water pressure in fire hose tanks, etc..</li>
+    </ul>
+  </div>
+
+</div>
+
+<div id="our-offering">
+  <div id="trigger"></div>
+  <div id="heading">OUR OFFERINGS</div>
+  <br>
+</div>
+
+<div id="our-offering-one" class="our-offering-item">
+  <div id="trigger"></div>
+  <div id="heading"><a class="offer_link" href="offering1.html"><span id="border">WHTT Sensor</span></a></div>
+  <br>
+  <br>
+  <div id="caption"  class="ptsans">
+    <i>Wireless humidity and temperature sensor</i>
+    <br>
+    The WHTT Indoor Sensor is a low-power, long range, wireless sensor that provides 0.5 °C accurate temperature and 2 % RH humidity monitoring at every location. Our smart sensors make it possible to monitor 24/7 for up to 10 years without the need for maintenance.
+  </div>
+</div>
+
+<div id="our-offering-two" class="our-offering-item">
+  <div id="trigger"></div>
+  <div id="heading"><a class="offer_link" href="offering2.html"><span id="border">W4TT</span></a></div>
+  <br>
+  <br>
+  <div id="caption"  class="ptsans">
+    <i>Wireless Temperature Transmitter</i>
+    <br>
+    
+Model WTT is state of the art low-power, long range, wireless transmitter to measure and transmit Temperature with high accuracy. Up to 4 PT-100 can be connected.
+  </div>
+</div>
+
+<div id="our-offering-three" class="our-offering-item">
+  <div id="trigger"></div>
+  <div id="heading"><a class="offer_link" href="offering3.html"><span id="border">QADC</span></a></div>
+  <br>
+  <br>
+  <div id="caption"  class="ptsans">
+    <i>Quad Channel Wireless device for transmitting 4-20mA Analog Signal</i>
+    <br>
+    
+The QDAC is quad channel low power long range wireless device for transmitting 4-20mA analog Signal.
+  </div>
+</div>
+
+<div id="our-offering-four" class="our-offering-item">
+  <div id="trigger"></div>
+  <div id="heading"><a class="offer_link" href="offering4.html"><span id="border">GPSTT</span></a></div>
+  <br>
+  <br>
+  <div id="caption"  class="ptsans">
+   This is low power long range wireless GPS tracking device with accelerometer
+  </div>
+</div>
+
+
+<div id="add-ons">
+  <div id="trigger"></div>
+  <div id="heading">ADD-ONS</div>
+  <br>
+  <div id="list"  class="ptsans">
+    <ul>
+      <li>We provide totally customizable services, highly specific to the required ecosystem.</li>
+      <li>We provide natively developed, state of the art and robust hardware & software/ applications at highly affordable rates.</li>
+      <li>We help discover new avenues where IoT can be implemented for increased efficiency and resource optimization</li> 
+    </ul>
+  </div>
+
+</div>
+
+<div id="contact">
+  <div id="trigger"></div>
+  <div id="heading">CONTACT US</div>
+  <br>
+  <div id="form">
+    <form action="mail.php" method="post">
+      <ul class="form-style-1">
+        <li>
+            <label>Name <span class="required">*</span></label>
+            <input type="text" name="field1" class="field-long" />
+        </li>
+        <li>
+            <label>Organization <span class="required">*</span></label>
+            <input type="text" name="field2" class="field-long" />
+        </li>
+        <li>
+            <label>Email <span class="required">*</span></label>
+            <input type="email" name="field3" class="field-long" />
+        </li>
+        <li>
+            <label>Your Message <span class="required">*</span></label>
+            <textarea name="field4" id="field4" class="field-long field-textarea"></textarea>
+        </li>
+        <li style="text-align: center;">
+            <input type="submit" value="Submit" />
+        </li>
+      </ul>
+    </form>
+  </div>
+ <!--  <div id="form">
+    <form name="contactform" method="post" action="send_form_email.php">
+      <table width="450px">
+      <tr>
+       <td valign="top">
+        <label for="first_name">First Name *</label>
+       </td>
+       <td valign="top">
+        <input  type="text" name="first_name" maxlength="50" size="30">
+       </td>
+      </tr>
+      <tr>
+       <td valign="top"">
+        <label for="last_name">Last Name *</label>
+       </td>
+       <td valign="top">
+        <input  type="text" name="last_name" maxlength="50" size="30">
+       </td>
+      </tr>
+      <tr>
+       <td valign="top">
+        <label for="email">Email Address *</label>
+       </td>
+       <td valign="top">
+        <input  type="text" name="email" maxlength="80" size="30">
+       </td>
+      </tr>
+      <tr>
+       <td valign="top">
+        <label for="telephone">Telephone Number</label>
+       </td>
+       <td valign="top">
+        <input  type="text" name="telephone" maxlength="30" size="30">
+       </td>
+      </tr>
+      <tr>
+       <td valign="top">
+        <label for="comments">Comments *</label>
+       </td>
+       <td valign="top">
+        <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2" style="text-align:center">
+        <input type="submit" value="Submit">  
+       </td>
+      </tr>
+      </table>
+    </form>
+  </div> -->
 
 </div>
 
@@ -132,10 +315,19 @@ HandsOff Solutions Internet of Things service enables organizations to transform
 
 
 <!-- scripts -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="
+sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
 <script src="js/jquery.easeScroll.js"></script>
+
+
 <script>
 $("html").easeScroll({
   frameRate: 60,
@@ -151,7 +343,55 @@ $("html").easeScroll({
   touchpadSupport: true,
   fixedBackground: true
 });
+
+
+
+
 </script>
+
+
+
+<!-- <script type="text/javascript">
+  // Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+
+
+
+</script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 
 
@@ -162,7 +402,37 @@ $("html").easeScroll({
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
 <script src="js/lib/main1.js"></script>
+<script>
+$(document).ready(function(){
+  if($(window).width() > 700){
+    
+    // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
 
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+  
+  }
+});
+
+</script>
 
 </body>
 </html>

@@ -67,6 +67,9 @@ canvas{
   text-align: center;
 }
 
+.ptsans{
+  font-family: 'PT Sans', sans-serif;
+}
 
 
 @media only screen and (min-width: 320px) and (max-width: 479px){
@@ -85,7 +88,7 @@ canvas{
   #title{
     position: relative;
     top: 40vh;
-    height: 150vh;
+    height: 100vh;
     width: 100vw;
     text-align: center
   }
@@ -112,6 +115,19 @@ canvas{
     text-transform: uppercase;
   }
 
+  #title #caption span{
+    font-size: 0.7rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #title #caption{
+    text-align: center;
+    opacity: 0;
+  }
+
   #our-focus{
     position: relative;
     margin-top: 20vw;
@@ -136,7 +152,7 @@ canvas{
   #our-focus .heading{
     text-align: left;
     position: relative;
-    font-size: 0.8em;
+    font-size: 1.1em;
     margin-top: 10vh;
     color: #FFFFFF;
   }
@@ -202,7 +218,7 @@ canvas{
   #title{
     position: relative;
     top: 40vh;
-    height: 150vh;
+    height: 100vh;
     width: 100vw;
     text-align: center
   }
@@ -229,6 +245,19 @@ canvas{
     text-transform: uppercase;
   }
 
+   #title #caption span{
+    font-size: 0.7rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #title #caption{
+    text-align: center;
+    opacity: 0;
+  }
+
   #our-focus{
     position: relative;
     margin-top: 20vw;
@@ -253,7 +282,7 @@ canvas{
   #our-focus .heading{
     text-align: left;
     position: relative;
-    font-size: 0.8em;
+    font-size: 1.1em;
     margin-top: 10vh;
     color: #FFFFFF;
   }
@@ -321,7 +350,7 @@ canvas{
    #title{
     position: relative;
     top: 40vh;
-    height: 150vh;
+    height: 100vh;
     width: 100vw;
     text-align: center
   }
@@ -348,6 +377,20 @@ canvas{
     text-transform: uppercase;
   }
 
+
+  #title #caption span{
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #title #caption{
+    text-align: center;
+    opacity: 0;
+  }
+
   #our-focus{
     position: relative;
     margin-top: 20vw;
@@ -372,7 +415,7 @@ canvas{
   #our-focus .heading{
     text-align: left;
     position: relative;
-    font-size: 1.3em;
+    font-size: 1.6em;
     margin-top: 10vh;
     color: #FFFFFF;
   }
@@ -442,7 +485,7 @@ canvas{
    #title{
     position: relative;
     top: 40vh;
-    height: 150vh;
+    height: 100vh;
     width: 100vw;
     text-align: center
   }
@@ -469,6 +512,20 @@ canvas{
     text-transform: uppercase;
   }
 
+  #title #caption span{
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 3.7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #title #caption{
+    text-align: center;
+    opacity: 0;
+  }
+
+
   #our-focus{
     position: relative;
     margin-top: 20vw;
@@ -493,7 +550,7 @@ canvas{
   #our-focus .heading{
     text-align: left;
     position: relative;
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin-top: 10vh;
     color: #FFFFFF;
   }
@@ -566,7 +623,7 @@ canvas{
   #title{
     position: relative;
     top: 40vh;
-    height: 150vh;
+    height: 100vh;
     width: 100vw;
     text-align: center
   }
@@ -619,7 +676,7 @@ canvas{
   #our-focus .heading{
     text-align: left;
     position: relative;
-    font-size: 1.3em;
+    font-size: 1.6em;
     margin-top: 10vh;
     color: #FFFFFF;
   }

@@ -1,13 +1,16 @@
 
 
 var startTween = new TimelineMax()
-				.to("#particles-js",20,{opacity:1});
+				.to("#particles-js",10,{opacity:1});
 
 
 
 var startTween2 = new TimelineMax()
-				.to("#title #heading",1,{y:'-40px'})
-				.to("#title #heading span",1,{opacity:1},0);
+				.to("#title #heading",1,{opacity:1})
+				.to("#title #heading",1,{y:'-20px'},0)
+				.to("#title #caption",1,{opacity:1})
+				.to("#title #heading span",1,{opacity:1},1)
+				.to("#title #caption",1,{y:'-20px'},1)
 				
 
 

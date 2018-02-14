@@ -505,6 +505,7 @@ canvas{
   .form-style-1 input[type=email],
   textarea, 
   select{
+    color: black;
       box-sizing: border-box;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -953,6 +954,7 @@ canvas{
   .form-style-1 input[type=email],
   textarea, 
   select{
+    color: black;
       box-sizing: border-box;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -1406,6 +1408,7 @@ canvas{
   .form-style-1 input[type=email],
   textarea, 
   select{
+    color: black;
       box-sizing: border-box;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -1861,6 +1864,7 @@ canvas{
   .form-style-1 input[type=email],
   textarea, 
   select{
+    color: black;
       box-sizing: border-box;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -2324,6 +2328,7 @@ canvas{
       border:1px solid #BEBEBE;
       padding: 7px;
       margin:0px;
+      color: black;
       -webkit-transition: all 0.30s ease-in-out;
       -moz-transition: all 0.30s ease-in-out;
       -ms-transition: all 0.30s ease-in-out;
